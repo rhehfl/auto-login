@@ -12,7 +12,7 @@
 
 이 프로젝트 폴더를 컴퓨터의 안전한 위치에 다운로드하거나 저장합니다. (폴더를 삭제하면 프로그램이 동작하지 않습니다.)
 <img width="452" height="393" alt="image" src="https://github.com/user-attachments/assets/f4d31d46-7a71-494d-9814-4f1c072b9af8" />
-깃허브 Code 버튼 => zip파일로 다운로드
+깃허브 Code 버튼 => zip파일로 다운로드 후 압축 해제
 
 크롬 브라우저를 열고 주소창에 `chrome://extensions` 를 입력하여 확장 프로그램 관리 페이지로 이동합니다.
 
