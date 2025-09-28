@@ -6,18 +6,20 @@
 * 인덕대학교 통합로그인 (sso.induk.ac.kr)
 사이트 자동 로그인
 
-### 🔧 사용 방법
+### 🔧 사용 및 설치 방법
 
 1. 확장 프로그램 설치하기
-<img width="834" height="479" alt="image" src="https://github.com/user-attachments/assets/ee48623d-8471-4ebf-8438-41cc83733e8b" />
+
 이 프로젝트 폴더를 컴퓨터의 안전한 위치에 다운로드하거나 저장합니다. (폴더를 삭제하면 프로그램이 동작하지 않습니다.)
+<img width="452" height="393" alt="image" src="https://github.com/user-attachments/assets/f4d31d46-7a71-494d-9814-4f1c072b9af8" />
+깃허브 Code 버튼 => zip파일로 다운로드
 
 크롬 브라우저를 열고 주소창에 `chrome://extensions` 를 입력하여 확장 프로그램 관리 페이지로 이동합니다.
 
 페이지 오른쪽 상단에 있는 '개발자 모드(Developer mode)' 스위치를 켭니다.
 
 왼쪽 상단에 나타난 '압축해제된 확장 프로그램을 로드합니다(Load unpacked)' 버튼을 클릭합니다.
-
+<img width="834" height="479" alt="image" src="https://github.com/user-attachments/assets/ee48623d-8471-4ebf-8438-41cc83733e8b" />
 파일 탐색기가 열리면, 다운로드한 프로젝트 폴더 자체를 선택하고 '폴더 선택' 버튼을 누릅니다.
 
 설치가 완료되면 확장 프로그램 목록에 '학교 자동 로그인'이 추가된 것을 확인할 수 있습니다.
