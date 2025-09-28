@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>자동 로그인 설정</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+        background-color: #f0f2f5;
+        color: #333;
+      }
+
+      .container {
+        margin-top: 80px;
+        background-color: #ffffff;
+        padding: 30px 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 10px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        text-align: center;
+      }
+
+      h3 {
+        color: #2c3e50; /* 어두운 파란색 제목 */
+        margin-bottom: 25px;
+        font-size: 1.8em;
+      }
+
+      input {
+        width: 250px;
+        padding: 12px 15px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        font-size: 1em;
+        transition: border-color 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      input:focus {
+        border-color: #440916;
+        box-shadow: 0 0 8px rgba(128, 36, 56, 0.2);
+        outline: none;
+      }
+
+      button {
+        width: 250px;
+        padding: 12px 15px;
+        background-color: #802438;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-size: 1.1em;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+      }
+
+      button:hover {
+        background-color: #440916;
+        transform: translateY(-2px);
+      }
+
+      button:active {
+        background-color: #440916;
+        transform: translateY(0);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h3>로그인 정보 저장</h3>
+      <input type="text" id="id" placeholder="아이디(학번)" />
+      <input type="password" id="pw" placeholder="비밀번호" />
+      <button id="save">저장</button>
+      <p>
+        편의용으로 만든 확장 프로그램입니다. 절대 개인 정보를 저장하지 않습니다!
+      </p>
+    </div>
+    <script src="./option.js"></script>
+  </body>
+</html>

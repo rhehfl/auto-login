@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "학교 자동 로그인",
+  "version": "1.0",
+  "description": "학교 웹사이트에 자동 로그인합니다.",
+  "permissions": ["storage", "scripting", "activeTab"],
+  "host_permissions": [
+    "https://lms.induk.ac.kr/login.php",
+    "https://sso.induk.ac.kr/svc/tk/Auth.eps?ac=Y&ifa=N&id=PORTAL&"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://lms.induk.ac.kr/login.php",
+        "https://sso.induk.ac.kr/svc/tk/Auth.eps?ac=Y&ifa=N&id=PORTAL&"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_title": "자동 로그인 확장"
+  },
+  "options_page": "options.html"
+}
